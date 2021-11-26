@@ -1,1 +1,15 @@
-
+# 一、回归的主要应用场景
+1、股市预测（Stock market forecast）
+输入：过去10年股票的变动、新闻咨询、公司并购咨询等
+输出：预测股市明天的平均值
+2、自动驾驶（Self-driving Car）
+输入：无人车上的各个sensor的数据，例如路况、测出的车距等
+输出：方向盘的角度
+3、商品推荐（Recommendation）
+输入：商品A的特性，商品B的特性
+输出：购买商品B的可能性
+# 二、Regression的三个步骤
+## Step1 确定model
+在regression中我们可以使用Linear Model(线性模型$\mathrm{y}=\mathrm{b}+\mathrm{w} \cdot \mathrm{x}$）
+Function set: 
+$y=b+\Sigma w_{i} X_{i}\left\{\begin{array}{l}X_{i}: \text { an attribute of input } X(\text { Features }) \\ \omega_{i}: \text { Weight of } X_{i} \\ b \text { : bias }\end{array}\right.$
